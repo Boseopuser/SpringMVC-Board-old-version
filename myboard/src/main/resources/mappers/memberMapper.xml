@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.kbs.mappers.memberMapper">
+
+	<!-- 회원 가입 -->
+	<insert id="register">
+		insert into myMember(userId, userPass, userName)
+		values(#{userId}, #{userPass}, #{userName})
+	</insert>
+
+	<!-- 로그인 -->
+	<select id="login" resultType="com.kbs.domain.MemberVO">
+		select
+		userId, userName
+		from
+		myMember
+		where userId = #{userId}
+		and userPass = #{userPass}
+	</select>
+
+	<!-- 회원정보 수정 -->
+	<update id="modify">
+		update myMember
+		set
+		userPass = #{userPass}
+		where
+		userName = #{userName}
+	</update>
+
+	<!-- 회원 탈퇴 -->
+	<delete id="withdrawal">
+		delete from myMember
+		where userId = #{userId}
+		and
+		userPass = #{userPass}
+	</delete>
+
+	<!-- 아이디 확인 -->
+	<select id="idCheck" resultType="com.kbs.domain.MemberVO">
+		select userId from myMember
+		where userId = #{userId}
+	</select>
+
+	<!-- 로그인 - 암호화 적용 -->
+	<select id="loginBcrypt" resultType="com.kbs.domain.MemberVO">
+		select
+		userId, userName, userPass
+		from
+		myMember
+		where userId = #{userId}
+	</select>
+
+</mapper>
