@@ -26,6 +26,10 @@
 
 # 로그인 , 로그아웃 , 회원가입
 
+
+https://user-images.githubusercontent.com/128597230/234784806-b4f8929b-f88c-49d6-8857-6db778550c8a.mp4
+
+
 # 게시판 조회 , 작성 , 수정 , 삭제 CRUD 
 
 # 댓글 조회 , 작성 , 수정 , 삭제 CRUD 
