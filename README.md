@@ -37,7 +37,13 @@ https://user-images.githubusercontent.com/128597230/234785137-cedbd696-2cb0-4a9f
 
 
 
-# 댓글 조회 , 작성 , 수정 , 삭제 CRUD 
+# 댓글 조회 , 작성 , 수정 , 삭제 CRUD (+ MySQL 테이블 스키마 수정 작업중)
+  
+  
+
+https://user-images.githubusercontent.com/128597230/234793941-97dc2c20-7f3b-4395-98bb-32e0aa0cb8ef.mp4
+
+
 
 # 검색 
 
