@@ -31,6 +31,11 @@ https://user-images.githubusercontent.com/128597230/234784806-b4f8929b-f88c-49d6
 
 
 # 게시판 조회 , 작성 , 수정 , 삭제 CRUD 
+  
+
+https://user-images.githubusercontent.com/128597230/234785137-cedbd696-2cb0-4a9f-b1c7-7bd6f91b318d.mp4
+
+
 
 # 댓글 조회 , 작성 , 수정 , 삭제 CRUD 
 
